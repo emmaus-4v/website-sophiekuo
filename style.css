@@ -3,10 +3,10 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgb(100, 51, 51);  
     
-    color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    color: #000000;
+    font: sans-serif
 }
 
 
@@ -24,7 +24,7 @@ article {
 
 header {
     color: skyblue;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -37,8 +37,8 @@ footer {
 /* specifieke stijlen */
 
 img.zweefLinks {
-    float: left;
-    margin-right: 15px;
+    float: right;
+    margin-left: 15px;
 }
 
 .smalltext {
@@ -84,6 +84,8 @@ nav li a.active {
     background-color: skyblue;
 }
 
-
+h1 {
+    color: rgb(0, 0, 0);
+}
 
 
