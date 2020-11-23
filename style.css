@@ -3,10 +3,14 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgb(100, 51, 51);  
+    background-color: rgb(11, 4, 48);  
     
-    color: #000000;
+    color: #ffffff;
     font: sans-serif
+}
+
+h1 {
+    color:white;
 }
 
 
@@ -25,6 +29,7 @@ article {
 header {
     color: skyblue;
     text-align: left;
+    height:60px;
 }
 
 
@@ -54,13 +59,26 @@ a:hover {
     text-decoration: underline;
 }
 
+.info {
+    background-color:rgb(0, 8, 15);
+    margin:20px;
+    
+}
+
+#about {
+    border-top:dotted;
+    border-top-color:white;
+    padding:10px;
+    
+}
+
 
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #090d46;
     overflow: hidden;
 }
 
@@ -70,22 +88,22 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #000000;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(31, 41, 97);
 }
 
 h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 
