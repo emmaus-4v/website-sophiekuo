@@ -74,33 +74,6 @@ a:hover {
 
 
 /* navigatiebalk */
-nav ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    background-color: #090d46;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav li a {
-    display: block;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    background-color: #000000;
-}
-
-nav li a.active {
-    background-color: rgb(31, 41, 97);
-}
 
 h1 {
     color: rgb(255, 255, 255);
@@ -120,6 +93,16 @@ h1 {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+.navbar a:hover {
+    background-color:black;
+}
+
+a.active {
+    background-color:rgb(31,41,97)
+}
+
+
 
 .dropdown .dropbtn {
     background-color: #090d46;
@@ -152,7 +135,7 @@ h1 {
     display:block;
     float:none;
     padding: 12px 16px;
-    text-align:center;
+    text-align:left;
 }
 
 .dropdown-content a:hover {
