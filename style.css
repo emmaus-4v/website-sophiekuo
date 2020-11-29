@@ -7,6 +7,8 @@ html, body {
     
     color: #ffffff;
     font-family: Arial;
+    text-decoration:none;
+    font-style:none;
 }
 
 h1 {
@@ -38,6 +40,10 @@ footer {
     padding-bottom: 10px;
 }
 
+p {
+    font-style:none;
+}
+
 
 /* specifieke stijlen */
 
@@ -49,6 +55,12 @@ img.zweefLinks {
 .spnimg {
     margin:10px;
     float:right;
+}
+
+.spnimg2 {
+    float:right;
+    margin-left:10px;
+    margin-bottom:10px;
 }
 
 .smalltext {
@@ -100,6 +112,37 @@ a:hover {
     padding-bottom:10px;
 }
 
+#episode {
+    font-style:italic;
+    
+}
+
+ul {
+    border:dotted;
+    padding-top:5px;
+    padding-bottom:5px;
+    width:30%;
+}
+
+.spnimgquote {
+    float:right;
+    
+}
+
+#spnquote {
+    
+    left:65%;
+    top:700px;
+    border:dotted;
+    background:rgb(14, 19, 48);
+    z-index:1;
+    width:50%;
+}
+
+.clear {
+    position:relative;
+    
+}
 
 /* navigatiebalk */
 
@@ -175,4 +218,10 @@ a.active {
 
 }
 
+p {
+    font-style:normal;
+}
 
+a {
+    font-style:normal;
+}
