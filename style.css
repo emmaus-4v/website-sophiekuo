@@ -9,6 +9,12 @@ html, body {
     font-family: Arial;
     text-decoration:none;
     font-style:none;
+
+    background-image:url(https://i2.wp.com/www.nerdsandbeyond.com/wp-content/uploads/2018/07/Season_14_Promotional_Poster.jpg?resize=768%2C576&ssl=1);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    
 }
 
 h1 {
@@ -77,7 +83,7 @@ a:hover {
 }
 
 #info {
-    background-color:rgb(0, 8, 15);
+    
     margin:5px;
     width:55%;
     display:block;
@@ -101,7 +107,7 @@ a:hover {
 }
 
 #news {
-    background-color: rgb(1, 8, 15);
+    
     margin-top:20px;
     width:55%;
     margin:5px;
@@ -125,18 +131,26 @@ ul {
 }
 
 .spnimgquote {
-    float:right;
+    
     
 }
 
+
+
 #spnquote {
     
-    left:65%;
-    top:700px;
-    border:dotted;
+    float:left;
+    border:solid;
     background:rgb(14, 19, 48);
-    z-index:1;
-    width:50%;
+    width:60%;
+    padding:7px;
+    border-radius:10px;
+    
+}
+
+#quotations {
+    padding:10px;
+    padding-top:5px;
 }
 
 .clear {
