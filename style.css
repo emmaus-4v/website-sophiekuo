@@ -44,6 +44,7 @@ header {
 footer {
     text-align: center;
     padding-bottom: 10px;
+    clear:both;
 }
 
 p {
@@ -61,12 +62,14 @@ img.zweefLinks {
 .spnimg {
     margin:10px;
     float:right;
+    width:250px;
 }
 
 .spnimg2 {
     float:right;
     margin-left:10px;
     margin-bottom:10px;
+    width:250px;
 }
 
 .smalltext {
@@ -155,6 +158,7 @@ ul {
 
 .clear {
     position:relative;
+    
     
 }
 
