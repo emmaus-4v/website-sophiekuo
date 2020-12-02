@@ -162,6 +162,11 @@ ul {
     
 }
 
+#list {
+    border:none;
+    width:40%;
+}
+
 /* navigatiebalk */
 
 h1 {
