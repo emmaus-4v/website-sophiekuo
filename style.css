@@ -75,8 +75,13 @@ img.zweefLinks {
 
 .spnimgalt {
     float:right;
+    margin:20px;
     width:45%;
     text-align:center;
+    margin-top:10px;
+    margin-bottom:5px;
+    clear:left;
+    
     
 }
 
