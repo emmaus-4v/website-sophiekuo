@@ -94,6 +94,7 @@ img.zweefLinks {
     font-size: 0.7em;
 }
 
+
 a {
     color: skyblue;
     text-decoration: none;
@@ -178,6 +179,27 @@ ul {
     width:60%;
 }
 
+/* animation*/
+
+@keyframes border {
+    0% {
+        border-color: red;
+    }
+    25% {
+        border-color:blue;
+    }
+    75% {
+        border-color:green;
+    }
+    100% {
+        border-color:yellow;
+    }
+}
+
+.spnquotes {
+    animation: border 10s infinite;
+}
+
 /* navigatiebalk */
 
 h1 {
@@ -232,7 +254,7 @@ a.active {
     position:absolute;
     z-index: 1;
     background-color:#090d46;
-    box-shadow:
+    
 }
 
 .dropdown-content a {
@@ -259,3 +281,4 @@ p {
 a {
     font-style:normal;
 }
+
