@@ -150,6 +150,7 @@ ul {
     padding-top:5px;
     padding-bottom:5px;
     width:30%;
+    
 }
 
 #spnquote {
@@ -179,6 +180,15 @@ ul {
     width:60%;
 }
 
+p {
+    font-style:normal;
+}
+
+a {
+    font-style:normal;
+}
+
+
 /* animation*/
 
 @keyframes border {
@@ -189,7 +199,7 @@ ul {
         border-color:rgb(97, 30, 30);
     }
     75% {
-        border-color:rgb(204, 194, 214);
+        border-color:rgb(68, 45, 90);
     }
     100% {
         border-color:rgb(100, 33, 33);
@@ -274,11 +284,4 @@ a.active {
 
 }
 
-p {
-    font-style:normal;
-}
-
-a {
-    font-style:normal;
-}
 
